@@ -14,7 +14,7 @@ static NSString *const populatedDatabasePath = @"/tmp/tmp-populated.db";
 @implementation FMDBTempDBTests
 
 + (void)setUp
-{ 
+{
     [super setUp];
     
     // Delete old populated database
